@@ -1,0 +1,84 @@
+@media (max-width: 481px) {
+
+    .container {
+        grid-template-columns: 384fr 96rem;
+        aspect-ratio: 480 / 1066.66;
+    }
+
+    .container .container-left {
+        width: 384rem;
+        height: 1066.66rem;
+        padding: 48rem 18rem 0;
+    }
+
+    .container .container-left .top-content .title {
+        font-size: 24rem;
+    }
+
+    .container .container-left .top-content .decs:last-child {
+        margin-top: 18rem;
+    }
+
+    .mid-content .select-building .icon-tower {
+        width: 24rem;
+        height: 24rem;
+        margin-right: 18rem;
+    }
+
+    .mid-content .select-building .separation {
+        height: 24rem;
+    }
+
+    .main-content .the-tower {
+        margin-right: 0;
+        height: 612rem;
+        width: 348rem;
+    }
+
+    .main-content .main-right {
+        display: none;
+    }
+
+    .mid-content .sup-main-mb {
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sup-main-mb .sup-next {
+        width: 12rem;
+        height: 36rem;
+    }
+
+    .sup-main-mb .sup-select-floor {
+        gap: 30rem;
+    }
+
+    .sup-main-mb .sup-select-floor .floor1 {
+        background-color: #000;
+        color: #fff;
+    }
+
+
+    .sup-main-mb .title-select {
+        position: absolute;
+        padding: 0 11rem;
+        background-color: #fff;
+        color: #3b3b3b;
+        top: -7rem;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .container .container-right {
+        height: 1066.66rem;
+    }
+
+    .container .container-right .select-room {
+        height: 274.66rem;
+    }
+
+}

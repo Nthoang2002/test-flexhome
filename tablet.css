@@ -1,0 +1,29 @@
+@media(max-width: 769px){
+    .container {
+        display: grid;
+        grid-template-columns: 670fr 98rem;
+        aspect-ratio: 768 / 1024;
+        overflow: hidden;
+    }
+
+    .container .container-left {
+        padding: 48rem 48rem 0;
+        height: 1024rem;
+    }
+
+    .container .container-right {
+        height: 1024rem;
+    }
+
+    .mid-content .sup-main-mb {
+        display: none;
+    }
+
+    .container .container-right .list-room {
+        left: 60rem;
+    }
+
+    .container .container-right .select-room {
+        height: 232rem;
+    }
+}
