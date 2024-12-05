@@ -88,6 +88,18 @@
     height: 48rem;
 }
 
+.footer .content-footer .contact {
+    align-items: center;
+}
+
+.footer .content-footer .share {
+    align-items: center;
+}
+
+.footer .content-footer .short-link {
+    align-items: center;
+}
+
 .container .container-right {
     width: 1270rem;
     height: 1050rem;
