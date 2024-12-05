@@ -6,7 +6,6 @@
     line-height: 1.125;
 }
 
-
 body {
     width: 100vw;
     height: 100vh;
@@ -15,7 +14,6 @@ body {
     justify-content: center;
     align-items: center;
 }
-
 
 .mt_48 {
     margin-top: 48rem;
@@ -97,7 +95,6 @@ body {
     justify-content: center;
     color: #3B3B3B;
     border: 1rem solid #3B3B3B;
-
 }
 
 .room {
@@ -110,7 +107,6 @@ body {
     background-color: rgba(0, 0, 0, 0.1);
     border: 1rem solid rgba(255, 255, 255, 1);
 }
-
 
 @media (max-width: 769px) {
     .mt_tl_36 {
@@ -151,9 +147,7 @@ body {
         width: 36rem;
         height: 36rem;
     }
-
 }
-
 
 @media only screen and (max-aspect-ratio:1940/1050)and (min-width:768px) {
     html {

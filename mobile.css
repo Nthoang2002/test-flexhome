@@ -1,5 +1,4 @@
 @media (max-width: 481px) {
-
     .container {
         grid-template-columns: 384fr 96rem;
         aspect-ratio: 480 / 1066.66;
@@ -40,7 +39,6 @@
     }
 
     .mid-content .sup-main-mb {
-        display: flex;
         position: relative;
         align-items: center;
         justify-content: center;
@@ -59,7 +57,6 @@
         background-color: #000;
         color: #fff;
     }
-
 
     .sup-main-mb .title-select {
         position: absolute;
@@ -80,5 +77,4 @@
     .container .container-right .select-room {
         height: 274.66rem;
     }
-
 }

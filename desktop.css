@@ -41,7 +41,6 @@
 }
 
 .main-content .main-right {
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -107,7 +106,6 @@
     background-image: url("./image/Rectangle\ \(1\).png");
     aspect-ratio: 1270 / 1050;
     background-size: cover;
-    background-repeat: no-repeat;
     background-position: center;
 }
 

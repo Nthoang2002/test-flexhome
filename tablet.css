@@ -1,9 +1,7 @@
-@media(max-width: 769px){
+@media(max-width: 769px) {
     .container {
-        display: grid;
         grid-template-columns: 670fr 98rem;
         aspect-ratio: 768 / 1024;
-        overflow: hidden;
     }
 
     .container .container-left {
